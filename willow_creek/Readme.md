@@ -12,6 +12,16 @@ Box 29: timestamp,scan,temp_hsc,pres_hsc,temp_wet_5803,pres_wet_5803,temp_dry_58
 **BMP388** (_bmp): Atmospheric pressure & air temp sensor located in the box; This pressure sensor does not alway report accurately. 
 
 **Methane**: MP-7217-TC sensor
+========================================================================
+Box 27: timestamp,scan,temp_hsc,pres_hsc,pres_inline_5803,pres_bmp,battV,valveopen
+
+**HSC** (_hsc): Gas pressure & temperature sensor permanently located in the box 
+
+**MS5803-inline** (_inline_5803): 1-bar MS5803 pressure sensor located inline with the HSC for comparative measurements
+
+**BMP388** (_bmp): Atmospheric pressure & air temp sensor located in the box; This pressure sensor does not alway report accurately. 
+
+
 
 
 
